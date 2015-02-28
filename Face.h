@@ -1,16 +1,16 @@
 /*
- *      Cube.h
+ *      Face.h
  *      Author : Scorypto
  *      Created at : 28 Feb, 2015
  *
  */
  
-#ifndef _CUBE_H_
-#define _CUBE_H_
+#ifndef _FACE_H_
+#define _FACE_H_
 
 #include "Row.h"
 
-class Cube
+class Face
 {
     private:
         Row topRow;
@@ -30,4 +30,4 @@ class Cube
         
 }
 
-#endif /* _CUBE_H_ */
+#endif /* _FACE_H_ */

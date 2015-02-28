@@ -1,38 +1,38 @@
 /*
- *      Cube.cpp
+ *      Face.cpp
  *      Author : Scorypto
  *      Created at : 28 Feb, 2015
  *
  */
  
-#include "Cube.h"
+#include "Face.h"
 
-Row Cube::getTopRow() const
+Row Face::getTopRow() const
 {
     return topRow;
 }
 
-void Cube::setTopRow(int topRow)
+void Face::setTopRow(int topRow)
 {
     this.topRow = topRow;
 }
 
-Row Cube::getMiddleRow() const
+Row Face::getMiddleRow() const
 {
     return middleRow;
 }
 
-void Cube::setMiddleRow(int middleRow)
+void Face::setMiddleRow(int middleRow)
 {
     this.middleRow = middleRow;
 }
 
-Row Cube::getBottomRow() const
+Row Face::getBottomRow() const
 {
     return bottomRow;
 }
 
-void Cube::setBottomRow(int bottomRow)
+void Face::setBottomRow(int bottomRow)
 {
     this.bottomRow = bottomRow;
 }
