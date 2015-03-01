@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Face	Cube.h	/^class Face$/;"	c
+Face	Face.h	/^class Face$/;"	c
+Row	Row.h	/^class Row$/;"	c
+Square	Row.cpp	/^Square(int centerSquare)$/;"	f
+Square	Square.h	/^class Square$/;"	c
+_CUBE_H_	Cube.h	9;"	d
+_FACE_H_	Face.h	9;"	d
+_ROW_H_	Row.h	9;"	d
+_SQUARE_H_	Square.h	9;"	d
+backFace	Cube.h	/^        Face backFace;$/;"	m	class:Face
+bottomFace	Cube.h	/^        Face bottomFace;$/;"	m	class:Face
+bottomRow	Face.h	/^        Row bottomRow;$/;"	m	class:Face
+centerSquare	Row.h	/^        Square centerSquare;$/;"	m	class:Row
+color	Square.h	/^        int color;$/;"	m	class:Square
+frontFace	Cube.h	/^        Face frontFace;$/;"	m	class:Face
+getBackFace	Cube.cpp	/^Face Cube::getBackFace() const$/;"	f	class:Cube
+getBottomFace	Cube.cpp	/^Face Cube::getBottomFace() const$/;"	f	class:Cube
+getBottomRow	Face.cpp	/^Row Face::getBottomRow() const$/;"	f	class:Face
+getCenterSquare	Row.cpp	/^Square Row::getCenterSquare() const$/;"	f	class:Row
+getColor	Square.cpp	/^int Square::getColor() const$/;"	f	class:Square
+getFrontFace	Cube.cpp	/^Face Cube::getFrontFace() const$/;"	f	class:Cube
+getLeftFace	Cube.cpp	/^Face Cube::getLeftFace() const$/;"	f	class:Cube
+getLeftSquare	Row.cpp	/^Square Row::getLeftSquare() const$/;"	f	class:Row
+getMiddleRow	Face.cpp	/^Row Face::getMiddleRow() const$/;"	f	class:Face
+getRightFace	Cube.cpp	/^Face Cube::getRightFace() const$/;"	f	class:Cube
+getRightSquare	Row.cpp	/^Square Row::getRightSquare() const$/;"	f	class:Row
+getTopFace	Cube.cpp	/^Face Cube::getTopFace() const$/;"	f	class:Cube
+getTopRow	Face.cpp	/^Row Face::getTopRow() const$/;"	f	class:Face
+leftFace	Cube.h	/^        Face leftFace;$/;"	m	class:Face
+leftSquare	Row.h	/^        Square leftSquare;$/;"	m	class:Row
+middleRow	Face.h	/^        Row middleRow;$/;"	m	class:Face
+rightFace	Cube.h	/^        Face rightFace;$/;"	m	class:Face
+rightSquare	Row.h	/^        Square rightSquare;$/;"	m	class:Row
+setBackFace	Cube.cpp	/^void Cube::setBackFace(int backFace)$/;"	f	class:Cube
+setBottomFace	Cube.cpp	/^void Cube::setBottomFace(int bottomFace)$/;"	f	class:Cube
+setBottomRow	Face.cpp	/^void Face::setBottomRow(int bottomRow)$/;"	f	class:Face
+setColor	Square.cpp	/^void Square::setColor(int color)$/;"	f	class:Square
+setFrontFace	Cube.cpp	/^void Cube::setFrontFace(int frontFace)$/;"	f	class:Cube
+setLeftFace	Cube.cpp	/^void Cube::setLeftFace(int leftFace)$/;"	f	class:Cube
+setLeftSquare	Row.cpp	/^void Row::setLeftSquare(int leftSquare)$/;"	f	class:Row
+setMiddleRow	Face.cpp	/^void Face::setMiddleRow(int middleRow)$/;"	f	class:Face
+setRightFace	Cube.cpp	/^void Cube::setRightFace(int rightFace)$/;"	f	class:Cube
+setRightSquare	Row.cpp	/^void Row::setRightSquare(int rightSquare)$/;"	f	class:Row
+setTopFace	Cube.cpp	/^void Cube::setTopFace(int topFace)$/;"	f	class:Cube
+setTopRow	Face.cpp	/^void Face::setTopRow(int topRow)$/;"	f	class:Face
+topFace	Cube.h	/^        Face topFace;$/;"	m	class:Face
+topRow	Face.h	/^        Row topRow;$/;"	m	class:Face
