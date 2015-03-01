@@ -28,6 +28,6 @@ class Face
         void setBottomRow(Sqaure bottomRow);
         
         
-}
+};
 
 #endif /* _FACE_H_ */

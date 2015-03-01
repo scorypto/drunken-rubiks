@@ -39,6 +39,6 @@ class Face
         Face getBackFace() const;
         void setBackFace(Sqaure backFace);
         
-}
+};
 
-#endif b* _CUBE_H_ */
+#endif /* _CUBE_H_ */

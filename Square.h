@@ -8,15 +8,14 @@
 #ifndef _SQUARE_H_
 #define _SQUARE_H_
 
-class Square
-{
-    private:
-        int color;
-        
-    public:
-        int getColor() const;
-        void setColor(int color);
-}
+class Square {
+private:
+    int color;
 
+public:
+    Square(int color);
+    int getColor() const;
+    void setColor(int color);
+};
 
 #endif /* _SQUARE_H_ */

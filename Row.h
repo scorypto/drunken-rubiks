@@ -28,7 +28,7 @@ class Row
         void setRightSquare(Sqaure rightSquare);
         
         
-}
+};
 
 
 #endif /* _ROW_H_ */
